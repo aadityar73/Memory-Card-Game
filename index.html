@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Match Madness</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Memory Match Madness</h1>
+      <div class="difficulty-selection">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="start-btn">Start Game</button>
+      </div>
+      <div class="game-board">
+        <!-- The cards will be generated dynamically here -->
+      </div>
+      <div class="timer">Time: <span id="timer">0</span> seconds</div>
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="high-scores">
+        <h2>High Scores</h2>
+        <!-- The high scores will be displayed here -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
